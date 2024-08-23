@@ -1,11 +1,7 @@
 import { useState } from 'react';
 import './loginpage.css';
 function login({count1,count2}){
-    if(count1==0)
-    {
-        return null;
-    }
-    else if(count1%2 != 0 && count2%2 !=0)
+    if(count1%2 != 0)
     {
         return null; 
     }

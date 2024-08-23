@@ -1,11 +1,7 @@
 import { useState } from 'react';
 import './signup.css';
 function signup({count2,count1}){
-    if(count2==0)
-        {
-            return null;
-        }
-        else if(count2%2 != 0 && count1%2 !=0)
+    if(count2%2 != 0)
         {
             return null; 
         }

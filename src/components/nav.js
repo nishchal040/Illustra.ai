@@ -8,10 +8,12 @@ const Nav=()=> {
     const [count2,setcount2]=useState(1);
     const handleLogin=()=>{
         setcount1(count1+1);
+        setcount2(1);
         console.log(count1);
     }
     const handleSignup=()=>{
         setcount2(count2+1);
+        setcount1(1);
         console.log(count2);
     }
     return(
